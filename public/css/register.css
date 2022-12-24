@@ -1,0 +1,78 @@
+.register main{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+}
+.register main h1{
+    text-align: center;
+}
+.register main h2 {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+.register main .date {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px ;
+    margin-bottom: 10px;
+    
+}
+
+.register main .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.register main .container label{
+    margin-bottom: 5px;
+}
+.register main .container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.register main button{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width:50%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--celeste);
+    
+}
+.register main small {
+    margin-top: 10px;
+    color: red;
+}
+.register .bottom{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.register .bottom input label{
+    width: 100%;
+}
+.register main .checkbox label {
+    margin-bottom: 20px;
+}
+@media (min-width:769px) {
+    .register main{
+        width: 100%
+}
+.regiter main .container {
+    width: 100%;
+}
+}
